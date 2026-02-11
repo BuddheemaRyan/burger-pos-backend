@@ -5,6 +5,7 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 @Table(name = "orders")
 public class Order {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private LocalDateTime createdAt = LocalDateTime.now();
     private double total;
