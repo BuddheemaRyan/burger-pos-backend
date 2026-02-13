@@ -2,6 +2,7 @@ package com.example.burger.service;
 
 import com.example.burger.model.dto.OrderItemRequestDto;
 import com.example.burger.model.dto.OrderRequestDto;
+import com.example.burger.model.dto.OrderResponseDto;
 import com.example.burger.model.dto.ProductDto;
 import com.example.burger.model.entity.Order;
 import com.example.burger.model.entity.OrderItem;
@@ -23,7 +24,7 @@ public class OrderService {
 
 
     @Transactional
-    public OrderItemRequestDto placeOrder(OrderRequestDto orderRequestDto) {
+    public OrderResponseDto placeOrder(OrderRequestDto orderRequestDto) {
         Order order = new Order();
         double total = 0;
 
