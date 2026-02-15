@@ -10,10 +10,10 @@ spring:
       ddl-auto: update
     show-sql: true
 
-  security:
-    user:
-      name: ryan
-      password: 1234
+#  security:
+#    user:
+#      name: ryan
+#      password: 1234
 
   application:
     name: burger
