@@ -44,7 +44,7 @@ public class OrderService {
         order.setStatus("PENDING");
 
         Order saved = orderRepository.save(order);
-        return modelMapper.map(saved, OrderItemRequestDto.class);
+        return modelMapper.map(saved, OrderResponseDto.class);
     }
 
 }
