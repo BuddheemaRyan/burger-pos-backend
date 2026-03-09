@@ -1,6 +1,19 @@
 # Burger POS Backend
 
-A Spring Boot REST API backend for a Burger Point of Sale (POS) system. It manages products (menu items) and customer orders, designed to work alongside an Angular frontend.
+![Java](https://img.shields.io/badge/Java-21-blue?logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.2-brightgreen?logo=springboot)
+![MySQL](https://img.shields.io/badge/MySQL-8%2B-orange?logo=mysql)
+![Maven](https://img.shields.io/badge/Maven-Wrapper-red?logo=apachemaven)
+
+A **RESTful backend API** built with Spring Boot for a **Burger Restaurant Point of Sale (POS) system**. It provides full menu management (products) and order processing, with automatic database schema management via Hibernate. Designed to integrate seamlessly with an Angular frontend.
+
+## Features
+
+- 🍔 **Product (Menu) Management** — Create, read, update, and delete burger menu items with name, category, price, and image URL.
+- 📋 **Order Processing** — Place customer orders containing multiple items; the system automatically calculates totals and snapshots prices at order time.
+- 🗄️ **Auto Schema Management** — Database tables are created and updated automatically by Hibernate on startup.
+- 🔗 **CORS Support** — Pre-configured to accept requests from an Angular dev server (`http://localhost:4200`).
+- 🔒 **Security-Ready** — Spring Security dependency is included and can be enabled when needed.
 
 ## Tech Stack
 
