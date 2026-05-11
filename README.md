@@ -3,7 +3,7 @@
 ![Java](https://img.shields.io/badge/Java-21-000000?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.2-000000?style=for-the-badge&logo=springboot&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8%2B-000000?style=for-the-badge&logo=mysql&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-Wrapper-000000?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-3.9.12-000000?style=for-the-badge&logo=apachemaven&logoColor=white)
 
 A **RESTful backend API** built with Spring Boot for a **Burger Restaurant Point of Sale (POS) system**. It provides full menu management (products) and order processing, with automatic database schema management via Hibernate. Designed to integrate seamlessly with an Angular frontend.
 
