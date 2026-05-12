@@ -5,7 +5,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-8%2B-000000?style=for-the-badge&logo=mysql&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-3.9.12-000000?style=for-the-badge&logo=apachemaven&logoColor=white)
 
-A **RESTful backend API** built with Spring Boot for a **Burger Restaurant Point of Sale (POS) system**. It provides full menu management (products) and order processing, with automatic database schema management via Hibernate. Designed to integrate seamlessly with an Angular frontend.
+Spring Boot REST API for a Burger Restaurant POS system. Handles menu management, order processing, and automatic schema migrations via Hibernate — built to pair with an Angular frontend.
 
 ## Features
 
